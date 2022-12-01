@@ -3,7 +3,13 @@
 
 1. Write a plan for the following extension:
   * Attach a "+" on their grade if the grade ends in a 7, 8 or 9 (eg: 78 -> C+, 89 -> B+)
+  Make another variable and an if statement.
+      int num2 = num % 10;
+      if (num2 >=7) {
+        System.out.println("A+");
+      }
   * Attach a "-" on their grade if the grade ends in a 0, 1 or 2 (eg: 92 -> A-, 61 -> D-)
+  Same thing as for "+" but instead replace the 7 with a 0 and 2
 
     * **YOUR WRITING HERE**
 
