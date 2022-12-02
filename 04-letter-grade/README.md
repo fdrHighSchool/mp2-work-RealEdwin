@@ -11,12 +11,10 @@
   * Attach a "-" on their grade if the grade ends in a 0, 1 or 2 (eg: 92 -> A-, 61 -> D-)
   Same thing as for "+" but instead replace the 7 with a 0 and 2
 
-    * **YOUR WRITING HERE**
-
 
 2. Discuss how you would make sure 100 is not misrepresented as an A-.
-  * **YOUR WRITING HERE**
+  Make a new method for 100 since its only 1 number.
 
 
 3. Discuss how you would make sure grades that are an F are not mislabeled as F- or F+ (eg: 49 -> F+ and 52 -> F-)
-  * **YOUR WRITING HERE**
+  Don't make a F- or F+
