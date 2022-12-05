@@ -1,0 +1,16 @@
+class Main {
+  public static void main(String[] args) {
+    System.out.println(repeatEnd("Hello", 2));
+  }
+  public static String repeatEnd(String s, int k) {
+    String o = "";
+    int x = s.length() - k;
+    String y = s.substring(x, s.length());
+    
+    for(int i = 0; i < k; i++) {
+      o += y;
+    }
+    
+    return o;
+  }
+}
